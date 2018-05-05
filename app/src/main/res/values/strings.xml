@@ -12,6 +12,11 @@
 
     <!-- Error messages-->
     <string name="detail_error_message">Sandwich data not available</string>
+    <string name="sample_origin_germany">Germany</string>
+    <string name="sample_description">A really really yummy sandwich</string>
+    <string name="sample_ingredients">Sample ingredients</string>
+    <string name="sample_sandwich">Sample Sandwich</string>
+    <string name="sample_description_details">Sample Description</string>
 
     <string-array name="sandwich_names">
         <item>Ham and cheese sandwich</item>

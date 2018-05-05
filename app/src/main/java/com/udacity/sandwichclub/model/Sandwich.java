@@ -1,8 +1,11 @@
 package com.udacity.sandwichclub.model;
 
+import android.databinding.BaseObservable;
+import android.databinding.Bindable;
+
 import java.util.List;
 
-public class Sandwich {
+public class Sandwich extends BaseObservable {
 
     private String mainName;
     private List<String> alsoKnownAs = null;
@@ -26,6 +29,7 @@ public class Sandwich {
         this.ingredients = ingredients;
     }
 
+    @Bindable
     public String getMainName() {
         return mainName;
     }
@@ -42,6 +46,7 @@ public class Sandwich {
         this.alsoKnownAs = alsoKnownAs;
     }
 
+    @Bindable
     public String getPlaceOfOrigin() {
         return placeOfOrigin;
     }
@@ -50,6 +55,7 @@ public class Sandwich {
         this.placeOfOrigin = placeOfOrigin;
     }
 
+    @Bindable
     public String getDescription() {
         return description;
     }
